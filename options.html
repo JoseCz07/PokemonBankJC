@@ -15,7 +15,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
   
   <!-- CSS PROPIO-->
-  <link rel="stylesheet" href="/Opciones/css/style.css">
+  <link rel="stylesheet" href="css/styleOpciones.css">
 </head>
 <body class="containter-fluid">
 <!-- Inicio del Header -->
@@ -24,18 +24,26 @@
         <nav class="navbar navbar-light bg-dark">
          <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img src="/Opciones/img/LogoPoke.png" alt="" width="135" height="65">
+            <img src="img/LogoPoke.png" alt="" width="135" height="65">
           </a>
         </div>
         </nav>
         <div class="container-fluid">
-          <a class="navbar-brand fw-bold" href="#">CAJERO AUTOMÁTICO SV - POKÉMON BANK</a>
-              </div>
+          <a class="navbar-brand fw-bold" href="#">CAJERO AUTOMÁTICO SV - POKÉMON BANK</a> 
+          <span class="navbar-text mr-12">
+            Bienvenido: <span id="lbNombre"></span>
+          </span>
+          <br>
+          <span class="navbar-text">
+            . Cuenta No: <span id="lbCuenta"></span>
+          </span>
+         </div>
     </header>
 <!-- Fin del Header -->
 <main>
-    <section class="OpcionesUsuario">
 
+
+    <section class="OpcionesUsuario">
         <div class="Opcionesuser">
             <h1>SELECCIONE UNA DE LAS SIGUIENTES OPCIONES: </h1>
         </div>
@@ -43,38 +51,43 @@
 
         <div class="cards">
             <div class="integrante">
-                <img src="/Opciones/img/Icono2.jpg">
+                <img src="img/Icono2.jpg">
                 <br>
                 <h5 class="nombreint">REALIZAR DEPÓSITOS</h5>
-                <button>Seleccionar</button>
+                <a href="depositos.html" class="btn btn-danger">Seleccionar</a>
             </div>
             <div class="integrante">
-                <img src="/Opciones/img/Icono1.png">
+                <img src="img/Icono1.png">
                 <br>
-                <h5 class="nombreint">RETIROS</h5>
-                <button>Seleccionar</button>
+                <h5 class="nombreint">RETIROS DE EFECTIVO</h5>
+                <a href="Retiros.html" class="btn btn-danger">Seleccionar</a>
             </div>
             <div class="integrante">
-                <img src="/Opciones/img/Icono4.jpg">
+                <img src="img/Icono4.jpg">
                 <br>
-                <h5 class="nombreint">CONSULTA DE SALDO</h5>
-                <button>Seleccionar</button>
+                <h5 class="nombreint">CONSULTA DE TRANSACCIONES</h5>
+                <a href="ConsultaHistorica.html" class="btn btn-danger">Seleccionar</a>
             </div>
             <div class="integrante">
-                <img src="/Opciones/img/Icono3.png">
+                <img src="img/Icono3.png">
                 <br>
                 <h5 class="nombreint">PAGOS DE SERVICIOS</h5>
-                <button>Seleccionar</button>
+                <a href="Servicios.html" class="btn btn-danger">Seleccionar</a>
             </div>
             <div class="integrante">
-                <img src="/Opciones/img/Icono5.jpg">
+                <img src="img/Icono5.jpg">
                 <br>
-                <h5 class="nombreint">CERRAR SESIÒN</h5>
-                <button>Seleccionar</button>
+                <h5 class="nombreint">CERRAR SESIÓN</h5>
+                <a href="index.html" class="btn btn-danger">Seleccionar</a>
             </div>
             </div>
         </div>
     </section>
 </main>
 </body>
+<script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
+<script src="js/sweetalert.min.js" type="text/javascript"></script>
+<script src="js/validate.min.js" type="text/javascript"></script>
+<script src="js/utils.js" type="text/javascript"></script>
+<script src="js/DataCuenta.js" type="text/javascript"></script>
 </html>

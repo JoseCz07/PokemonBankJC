@@ -6,7 +6,7 @@
 }
 
 body{
-        background-image: url(/Servicios/css/Fondo1.jpg);
+        background-image: url(/css/Fondo1.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -99,7 +99,7 @@ body{
 button{
     padding: 6px 12px;
     font-size: 15px;
-    background: #000000;
+    background: #ff1e00;
     border: none;
     outline: none;
     color: white;

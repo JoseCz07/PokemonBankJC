@@ -6,7 +6,7 @@
 }
 
 body{
-        background-image: url(/Opciones/css/Fondo1.jpg);
+        background-image: url(/css/Fondo5.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -44,7 +44,6 @@ body{
     display: flex;
     justify-content: space-between;
     overflow: hidden;
-    margin: 20px;
 }
 
 .card:hover{
@@ -54,9 +53,9 @@ body{
 }
 
 .integrante{
-    margin: 20px 0px;
+    margin: 10px 0px;
     font-weight: 300px;
-    width: 40%;
+    width: 30%;
     height: 260px;
     text-align: justify;
     padding: 25px;
@@ -94,17 +93,4 @@ body{
     height: 160px;
     margin: auto;
     display: flex;
-}
-
-button{
-    padding: 6px 12px;
-    font-size: 15px;
-    background: #ff1e00;
-    border: none;
-    outline: none;
-    color: white;
-    font-weight: 500;
-    letter-spacing: 1px;
-    border-radius: 4px;
-    cursor: pointer;    
 }
