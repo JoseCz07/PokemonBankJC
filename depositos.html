@@ -42,43 +42,41 @@
       </header>
       <h1 class="title">Digite su monto a depositar (Múltiplos de $5.00)</h1>
       <form id="OPTransacciones">
+        <center>
         <div class="form-group col-3">
             <input type="number" class="form-control" id="txtMonto" placeholder="Monto" min="5.00" step="5.00"
                 onkeypress="return onlyNumberKeyAndPoint(event);"></input> 
             <input type="submit" class="Selección" id="btnGuardar" value="Depositar"></input>
         </div>
-      <div id="OPTransacciones" class="container">
+      </center>
+      <div class="container">
         <div class="card">
             <img src="img/D$5.00.png">
             <h4>$5.00</h4>
-            <input type="submit" class="Selección" id="btnGuardar" placeholder="5.00"
-            onkeypress="return onlyNumberKeyAndPoint(event);" value="Depositar"></input>
+            <input type="submit" class="Selección" id= "DP5" value="Seleccionar"></input>
         </div>
         
         <div class="card">
             <img src="img/D$10.00.jpg">
             <h4>$10.00</h4>
-            <input type="submit" class="Selección" id="btnGuardar" placeholder="10.00"
-            onkeypress="return onlyNumberKeyAndPoint(event);" value="Depositar"></input>
+            <input type="submit" class="Selección" id= "DP10" value="Seleccionar"></input>
         </div>
         
         <div class="card">
             <img src="img/D$25.00.jpg">
             <h4>$25.00</h4>
-            <input type="submit" class="Selección" id="btnGuardar" placeholder="25.00"
-            onkeypress="return onlyNumberKeyAndPoint(event);" value="Depositar"></input>
+            <input type="submit" class="Selección" id= "DP25" value="Seleccionar"></input>
         </div>
         <div class="card">
             <img src="img/D$50.00.png">
-            <h4>$50.00</h4>
-            <input type="submit" class="Selección" id="btnGuardar" placeholder="50.00"
-            onkeypress="return onlyNumberKeyAndPoint(event);" value="Depositar"></input>
+            <h4>$
+              50.00</h4>
+              <input type="submit" class="Selección" id= "DP50" value="Seleccionar"></input>
         </div>
         <div class="card">
             <img src="img/D$100.00.jpg">
             <h4>$100.00</h4>
-            <input type="submit" class="Selección" id="btnGuardar" placeholder="100.00"
-            onkeypress="return onlyNumberKeyAndPoint(event);" value="Depositar"></input>
+            <input type="submit" class="Selección" id= "DP100" value="Seleccionar"></input>
         </div>
         </div>
       </form>
@@ -107,11 +105,17 @@
                   </tr>
               </tbody>
           </table>
-      </div>
-      <script src="js/sweetalert.min.js" type="text/javascript"></script>
-      <script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
-      <script src="js/validate.min.js" type="text/javascript"></script>
-      <script src="js/utils.js" type="text/javascript"></script>
+          <br>
+          <td>***TRANSACCIÓN COMPLETADA***</td>
+          <br>
+          <td>NOTA: Cualquier duda o reclamo puedes utilizar nuestros medios de comunicación o llama al teléfono: 2255-1432</td>
+          <br>
+          <td>***POKEMON BANK SV***</td>
+        </div>
+      <script src="js/sweetalert.min.js"></script>
+      <script src="js/jquery-3.6.0.min.js"></script>
+      <script src="js/validate.min.js"></script>
+      <script src="js/utils.js"></script>
       <script src="js/transacciones.js"></script>
       <script src="js/jspdf.min.js"></script>
 </body>

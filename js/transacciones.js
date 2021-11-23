@@ -154,9 +154,9 @@ let validator = new FormValidator("OPTransacciones", [{
                 title: "Transacción completada de manera exitosa",
                 icon: "success",
                 buttons: {
-                    ok: "Aceptar",
+                    ok: "Regresar",
                     comprobante: {
-                        text: "Generar Comprobante"
+                        text: "Desea imprimir su recibo"
                     }
                 }
             }).then((value) => {

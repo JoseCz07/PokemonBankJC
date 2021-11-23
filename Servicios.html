@@ -77,15 +77,17 @@
                 <input id="telefonia" type="radio" name="pagoServicios" value="telefonia" />
                 <label class="pagoServicios-cc telefonia" for="telefonia" title="Pago de Servicio de Telefonía (Cargo)"></label>
             </div>
-            <div class="form-group col-md-2">
-                <input type="number" class="form-control" id="txtMonto" placeholder="Monto" min="0.01" step="0.01" onkeypress="return onlyNumberKeyAndPoint(event);"></input>
-            </div>
-            <div class="form-group ">
-                    <input type="submit" class="btn btn-dark" id="btnGuardar" value="Pagar"></input>
-                </div>
             </div>
         </div>
     </section>
+    <center>
+    <div class="form-group col-md-2">
+        <input type="number" class="form-control" id="txtMonto" placeholder="Monto" min="0.01" step="0.01" onkeypress="return onlyNumberKeyAndPoint(event);"></input>
+    </div>
+        <div class="form-group ">
+            <input type="submit" class="btn btn-dark" id="btnGuardar" value="Pagar"></input>
+        </div>
+    </center>
 </form>
 <input type="hidden" id="idTran" name="idTran" value="pagos">
 
@@ -112,12 +114,17 @@
                 </tr>
             </tbody>
         </table>
+        <td>***TRANSACCIÓN COMPLETADA***</td>
+        <br>
+        <td>NOTA: Cualquier duda o reclamo puedes utilizar nuestros medios de comunicación o llama al teléfono: 2255-1432</td>
+        <br>
+        <td>***POKEMON BANK SV***</td>
     </div>
 </div>
-<script src="js/sweetalert.min.js" type="text/javascript"></script>
-<script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
-<script src="js/validate.min.js" type="text/javascript"></script>
-<script src="js/utils.js" type="text/javascript"></script>
+<script src="js/sweetalert.min.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/validate.min.js"></script>
+<script src="js/utils.js"></script>
 <script src="js/transacciones.js"></script>
 <script src="js/jspdf.min.js"></script>
 </main>
